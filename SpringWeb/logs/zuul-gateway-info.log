@@ -1,0 +1,1530 @@
+2019-02-14 15:51:36.936 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 2760 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 15:51:36.950 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 15:51:37.734 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 15:51:37.817 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 70ms. Found 1 repository interfaces.
+2019-02-14 15:51:38.258 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f7a2fba7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 15:51:39.044 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:51:39.069 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:51:39.098 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 15:51:39.102 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:51:39.121 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 15:51:39.126 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 15:51:39.131 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 15:51:39.137 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 15:51:40.225 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 15:51:40.337 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 15:51:40.348 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3334 ms
+2019-02-14 15:51:40.604 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 15:51:41.499 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 15:51:41.580 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 15:51:41.758 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 15:51:41.762 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 15:51:41.925 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 15:51:42.106 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 15:51:42.915 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 15:51:43.530 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:51:43.608 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 15:51:43.770 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 15:51:43.950 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:51:43.992 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:51:43.997 [main] INFO  com.example.demo.Application
+				-Started Application in 7.779 seconds (JVM running for 14.448)
+2019-02-14 15:52:08.579 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 15:52:08.584 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 15:52:08.603 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 14 ms
+2019-02-14 15:52:09.215 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 15:52:09.228 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 15:52:09.242 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 15:52:09.257 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 15:52:09.268 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 15:52:09.280 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 15:52:09.359 [http-nio-8080-exec-8] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 15:52:48.971 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 15:52:48.978 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 15:52:48.985 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 15:52:48.998 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 15:52:49.008 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 15:52:49.012 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 15:55:40.080 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:55:40.152 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 15:55:40.156 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 15:55:40.173 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 15:58:00.186 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 5648 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 15:58:00.197 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 15:58:01.071 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 15:58:01.155 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 71ms. Found 1 repository interfaces.
+2019-02-14 15:58:01.614 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b0380a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 15:58:02.376 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 15:58:02.401 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:58:02.419 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 15:58:02.434 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 15:58:02.454 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 15:58:02.458 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 15:58:02.463 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 15:58:02.470 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 15:58:03.555 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 15:58:03.660 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 15:58:03.666 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3398 ms
+2019-02-14 15:58:03.921 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 15:58:04.587 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 15:58:04.659 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 15:58:04.850 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 15:58:04.854 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 15:58:05.246 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 15:58:05.427 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 15:58:06.316 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 15:58:07.032 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 15:58:07.126 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 15:58:07.339 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 15:58:07.539 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 15:58:07.581 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 15:58:07.587 [main] INFO  com.example.demo.Application
+				-Started Application in 7.927 seconds (JVM running for 12.119)
+2019-02-14 16:02:48.831 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:02:48.839 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:02:48.859 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 16 ms
+2019-02-14 16:02:49.504 [http-nio-8080-exec-3] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:02:49.512 [http-nio-8080-exec-3] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:02:49.516 [http-nio-8080-exec-3] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:02:49.528 [http-nio-8080-exec-3] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:02:49.538 [http-nio-8080-exec-3] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:02:49.557 [http-nio-8080-exec-3] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:02:49.638 [http-nio-8080-exec-3] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:05:34.697 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:05:34.698 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:05:34.702 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 16:05:34.723 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 16:06:00.288 [restartedMain] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 6644 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:06:00.295 [restartedMain] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:06:00.353 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+				-Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-02-14 16:06:00.356 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor
+				-For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-02-14 16:06:01.307 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:06:01.391 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 72ms. Found 1 repository interfaces.
+2019-02-14 16:06:01.909 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f487a778] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:06:02.859 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:06:02.879 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:06:02.893 [restartedMain] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:06:02.895 [restartedMain] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:06:02.916 [restartedMain] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:06:02.918 [restartedMain] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:06:02.922 [restartedMain] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:06:02.926 [restartedMain] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:06:03.998 [restartedMain] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:06:04.129 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:06:04.130 [restartedMain] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3763 ms
+2019-02-14 16:06:04.345 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:06:05.045 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:06:05.122 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:06:05.340 [restartedMain] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:06:05.342 [restartedMain] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:06:05.520 [restartedMain] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:06:05.704 [restartedMain] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:06:06.443 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:06:06.469 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer
+				-LiveReload server is running on port 35729
+2019-02-14 16:06:07.266 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:06:07.342 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:06:07.557 [restartedMain] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:06:07.741 [restartedMain] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:06:07.780 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:06:07.785 [restartedMain] INFO  com.example.demo.Application
+				-Started Application in 7.999 seconds (JVM running for 8.723)
+2019-02-14 16:06:33.047 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:06:33.048 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:06:33.064 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 15 ms
+2019-02-14 16:06:33.718 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:06:33.729 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:06:33.743 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:06:33.747 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:06:33.749 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:06:33.766 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:06:33.849 [http-nio-8080-exec-9] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:07:05.490 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:07:05.492 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:07:05.496 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:07:05.499 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:07:05.500 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:07:05.501 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:07:30.389 [Thread-9] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:07:30.391 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:07:30.395 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 16:07:30.414 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 16:10:54.387 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 10648 (f:\SpringWeb\target\classes started by Administrator in f:\SpringWeb)
+2019-02-14 16:10:54.392 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:10:55.160 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:10:55.257 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 82ms. Found 1 repository interfaces.
+2019-02-14 16:10:55.710 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e1a6c3bb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:10:56.485 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:10:56.513 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:10:56.540 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:10:56.554 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:10:56.578 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:10:56.585 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:10:56.591 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:10:56.596 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:10:57.680 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:10:57.808 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:10:57.818 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3378 ms
+2019-02-14 16:10:58.063 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:10:59.154 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:10:59.231 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:10:59.435 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:10:59.438 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:10:59.608 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:10:59.787 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:11:00.616 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:11:01.218 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:11:01.292 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:11:01.460 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:11:01.614 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:11:01.652 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:11:01.659 [main] INFO  com.example.demo.Application
+				-Started Application in 7.968 seconds (JVM running for 13.363)
+2019-02-14 16:11:05.153 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:11:05.157 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:11:05.175 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 15 ms
+2019-02-14 16:11:05.732 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:11:05.750 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:11:05.760 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:11:05.772 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:11:05.780 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:11:05.801 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:11:05.881 [http-nio-8080-exec-8] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:11:20.731 [http-nio-8080-exec-9] ERROR c.e.demo.Handle.ExceptionHandle
+				-【系统异常】 {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-14 16:11:20.861 [http-nio-8080-exec-2] ERROR c.e.demo.Handle.ExceptionHandle
+				-【系统异常】 {}
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:132)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:211)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:124)
+	... 51 common frames omitted
+2019-02-14 16:17:04.199 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 7336 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:17:04.222 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:17:05.004 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:17:05.081 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces.
+2019-02-14 16:17:05.533 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ff1e7f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:17:06.306 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:17:06.332 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:17:06.359 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:17:06.365 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:17:06.387 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:17:06.393 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:17:06.397 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:17:06.402 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:17:07.494 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:17:07.606 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:17:07.611 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3302 ms
+2019-02-14 16:17:07.824 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:17:08.814 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:17:08.903 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:17:09.125 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:17:09.129 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:17:09.299 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:17:09.487 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:17:10.464 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:17:11.178 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:17:11.265 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:17:11.440 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:17:11.608 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:17:11.651 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:17:11.659 [main] INFO  com.example.demo.Application
+				-Started Application in 8.226 seconds (JVM running for 13.79)
+2019-02-14 16:17:16.586 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:17:16.591 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:17:16.610 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 16 ms
+2019-02-14 16:17:17.229 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:17:17.234 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:17:17.246 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:17:17.255 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:17:17.273 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:17:17.289 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:17:17.374 [http-nio-8080-exec-7] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:20:03.343 [http-nio-8080-exec-4] ERROR c.e.demo.Handle.ExceptionHandle
+				-【系统异常】 {}
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:200)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:422)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:368)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:65)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:401)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1231)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1014)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-14 16:20:03.457 [http-nio-8080-exec-1] ERROR c.e.demo.Handle.ExceptionHandle
+				-【系统异常】 {}
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "undefined"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:132)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:126)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:166)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NumberFormatException: For input string: "undefined"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.valueOf(Integer.java:766)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:211)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:124)
+	... 51 common frames omitted
+2019-02-14 16:22:19.991 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 15884 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:22:20.054 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:22:22.760 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:22:22.847 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 77ms. Found 1 repository interfaces.
+2019-02-14 16:22:23.443 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$edb32423] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:22:24.471 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:22:24.522 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:22:24.543 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:22:24.543 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:22:24.556 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:22:24.556 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:22:24.557 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:22:24.557 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:22:25.628 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:22:25.875 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:22:25.876 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 5670 ms
+2019-02-14 16:22:26.138 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:22:27.196 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:22:27.437 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:22:27.552 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:22:27.554 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:22:27.801 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:22:28.012 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:22:28.818 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:22:29.571 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:22:29.634 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:22:29.807 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:22:30.063 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:22:30.281 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:22:30.283 [main] INFO  com.example.demo.Application
+				-Started Application in 11.545 seconds (JVM running for 13.561)
+2019-02-14 16:23:55.717 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 10424 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:23:55.722 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:23:56.559 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:23:56.683 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces.
+2019-02-14 16:23:57.149 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e02cb18a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:23:57.918 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:23:57.948 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:23:57.977 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:23:57.980 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:23:57.997 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:23:58.007 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:23:58.013 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:23:58.018 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:23:59.095 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:23:59.205 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:23:59.212 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3442 ms
+2019-02-14 16:23:59.420 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:24:00.388 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:24:00.465 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:24:00.676 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:24:00.688 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:24:00.880 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:24:01.056 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:24:01.836 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:24:02.476 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:24:02.549 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:24:02.721 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:24:02.913 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:24:02.984 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:24:02.992 [main] INFO  com.example.demo.Application
+				-Started Application in 8.008 seconds (JVM running for 13.115)
+2019-02-14 16:24:10.859 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:24:10.867 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:24:10.890 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 20 ms
+2019-02-14 16:24:11.447 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:24:11.459 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:24:11.480 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:24:11.497 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:24:11.505 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:24:11.523 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:24:11.624 [http-nio-8080-exec-9] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:24:29.941 [http-nio-8080-exec-8] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-02-14 16:24:38.322 [http-nio-8080-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver
+				-Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+2019-02-14 16:28:06.435 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 14544 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:28:06.443 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:28:07.191 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:28:07.268 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 64ms. Found 1 repository interfaces.
+2019-02-14 16:28:07.740 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1c45d1f6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:28:08.538 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:28:08.567 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:28:08.595 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:28:08.601 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:28:08.623 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:28:08.628 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:28:08.639 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:28:08.645 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:28:09.738 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:28:09.855 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:28:09.860 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3348 ms
+2019-02-14 16:28:10.075 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:28:10.954 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:28:11.022 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:28:11.194 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:28:11.202 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:28:11.405 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:28:11.585 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:28:12.360 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:28:12.992 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:28:13.069 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:28:13.243 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:28:13.406 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:28:13.453 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:28:13.461 [main] INFO  com.example.demo.Application
+				-Started Application in 7.896 seconds (JVM running for 12.941)
+2019-02-14 16:28:20.691 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:28:20.699 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:28:20.720 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 17 ms
+2019-02-14 16:28:21.342 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:28:21.349 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:28:21.364 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:28:21.373 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:28:21.387 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:28:21.406 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:28:21.493 [http-nio-8080-exec-8] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:28:47.611 [http-nio-8080-exec-10] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students/save
+2019-02-14 16:28:47.616 [http-nio-8080-exec-10] INFO  c.e.d.controller.StudentController
+				-method=POST
+2019-02-14 16:28:47.618 [http-nio-8080-exec-10] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:28:47.620 [http-nio-8080-exec-10] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.save
+2019-02-14 16:28:47.622 [http-nio-8080-exec-10] INFO  c.e.d.controller.StudentController
+				-args=StudentDao [id=0, name=谢虹, age=20, number=16485263569]
+2019-02-14 16:28:47.624 [http-nio-8080-exec-10] INFO  c.e.d.controller.StudentController
+				-根据id查询相关学生，并返回他的JSON格式
+2019-02-14 16:28:47.662 [http-nio-8080-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet]
+				-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.util.NoSuchElementException: No value present] with root cause
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:135)
+	at com.example.demo.service.StudentService.findOne(StudentService.java:54)
+	at com.example.demo.controller.StudentController.save(StudentController.java:107)
+	at com.example.demo.controller.StudentController$$FastClassBySpringCGLIB$$7356fabf.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.example.demo.controller.StudentController$$EnhancerBySpringCGLIB$$4ab7c28.save(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:800)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1417)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-02-14 16:28:56.839 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:28:56.860 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:28:56.870 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:28:56.878 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:28:56.886 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:28:56.891 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:40:58.617 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:40:58.619 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:40:58.624 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 16:40:58.653 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 16:46:21.187 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 19276 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:46:21.197 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:46:21.909 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:46:21.980 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces.
+2019-02-14 16:46:22.492 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$30eff450] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:46:23.255 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:46:23.279 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:46:23.307 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:46:23.312 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:46:23.333 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:46:23.338 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:46:23.341 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:46:23.351 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:46:24.434 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:46:24.545 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:46:24.549 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3280 ms
+2019-02-14 16:46:24.759 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:46:25.690 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:46:25.764 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:46:25.990 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:46:25.995 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:46:26.161 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:46:26.339 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:46:27.153 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:46:27.756 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:46:27.830 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:46:27.990 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:46:28.157 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:46:28.202 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:46:28.207 [main] INFO  com.example.demo.Application
+				-Started Application in 7.836 seconds (JVM running for 12.818)
+2019-02-14 16:46:36.871 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:46:36.879 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:46:36.902 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 17 ms
+2019-02-14 16:46:37.479 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:46:37.499 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:46:37.506 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:46:37.532 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:46:37.542 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:46:37.555 [http-nio-8080-exec-9] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:46:37.637 [http-nio-8080-exec-9] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:46:59.430 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:46:59.437 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:46:59.441 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:46:59.446 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:46:59.448 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:46:59.455 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:48:48.099 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:48:48.101 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:48:48.105 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 16:48:48.140 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 16:49:25.834 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 11956 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:49:25.840 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:49:26.640 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:49:26.735 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 78ms. Found 1 repository interfaces.
+2019-02-14 16:49:27.144 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3f6e922e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:49:27.896 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:49:27.924 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:49:27.952 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:49:27.957 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:49:27.977 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:49:27.984 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:49:27.989 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:49:27.996 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:49:29.096 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:49:29.207 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:49:29.213 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3329 ms
+2019-02-14 16:49:29.426 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:49:30.341 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:49:30.429 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:49:30.620 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:49:30.623 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:49:30.791 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:49:30.973 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:49:31.763 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:49:32.432 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:49:32.502 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:49:32.661 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:49:32.823 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:49:32.865 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:49:32.871 [main] INFO  com.example.demo.Application
+				-Started Application in 7.864 seconds (JVM running for 12.784)
+2019-02-14 16:50:24.931 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:50:24.937 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:50:24.959 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 19 ms
+2019-02-14 16:50:25.555 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:50:25.560 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:50:25.587 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:50:25.621 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:50:25.639 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:50:25.663 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:50:25.792 [http-nio-8080-exec-8] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 16:50:50.211 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:50:50.217 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:50:50.220 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:50:50.233 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:50:50.236 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:50:50.239 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:58:18.834 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:58:18.839 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:58:18.843 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 16:58:18.881 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 16:59:14.891 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 11016 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 16:59:14.995 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 16:59:15.761 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 16:59:15.834 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 61ms. Found 1 repository interfaces.
+2019-02-14 16:59:16.291 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$52b12402] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 16:59:17.064 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 16:59:17.090 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:59:17.118 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 16:59:17.123 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 16:59:17.142 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 16:59:17.147 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 16:59:17.151 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 16:59:17.158 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 16:59:18.247 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 16:59:18.361 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 16:59:18.366 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3259 ms
+2019-02-14 16:59:18.573 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 16:59:19.514 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 16:59:19.593 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 16:59:19.824 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 16:59:19.828 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 16:59:19.994 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 16:59:20.177 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 16:59:21.012 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 16:59:21.622 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 16:59:21.726 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 16:59:21.910 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 16:59:22.068 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 16:59:22.114 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 16:59:22.118 [main] INFO  com.example.demo.Application
+				-Started Application in 8.021 seconds (JVM running for 13.014)
+2019-02-14 16:59:33.287 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 16:59:33.293 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 16:59:33.322 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 19 ms
+2019-02-14 16:59:34.238 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 16:59:34.252 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 16:59:34.265 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 16:59:34.292 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 16:59:34.299 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 16:59:34.309 [http-nio-8080-exec-7] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 16:59:34.422 [http-nio-8080-exec-7] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 17:00:11.691 [http-nio-8080-exec-6] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 17:00:11.701 [http-nio-8080-exec-6] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 17:00:11.705 [http-nio-8080-exec-6] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 17:00:11.707 [http-nio-8080-exec-6] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 17:00:11.710 [http-nio-8080-exec-6] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 17:00:11.713 [http-nio-8080-exec-6] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 17:00:53.532 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:00:53.535 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 17:00:53.538 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 17:00:53.565 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 17:01:33.000 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 17424 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 17:01:33.006 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 17:01:33.706 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 17:01:33.775 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 59ms. Found 1 repository interfaces.
+2019-02-14 17:01:34.235 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$de998783] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 17:01:35.025 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:01:35.055 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:01:35.085 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 17:01:35.093 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:01:35.113 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 17:01:35.118 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 17:01:35.125 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 17:01:35.132 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 17:01:36.224 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 17:01:36.330 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 17:01:36.337 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3286 ms
+2019-02-14 17:01:36.551 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 17:01:37.483 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 17:01:37.561 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 17:01:37.796 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 17:01:37.800 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 17:01:37.971 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 17:01:38.161 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 17:01:39.011 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 17:01:39.665 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:01:39.734 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 17:01:39.898 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 17:01:40.057 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:01:40.108 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:01:40.120 [main] INFO  com.example.demo.Application
+				-Started Application in 7.865 seconds (JVM running for 12.891)
+2019-02-14 17:02:00.385 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:02:00.389 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:02:00.406 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 14 ms
+2019-02-14 17:02:01.105 [http-nio-8080-exec-5] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 17:02:01.169 [http-nio-8080-exec-5] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 17:02:01.176 [http-nio-8080-exec-5] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 17:02:01.202 [http-nio-8080-exec-5] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 17:02:01.209 [http-nio-8080-exec-5] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 17:02:01.226 [http-nio-8080-exec-5] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 17:02:01.318 [http-nio-8080-exec-5] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory
+2019-02-14 17:02:52.412 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 17:02:52.418 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 17:02:52.425 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 17:02:52.439 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 17:02:52.447 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 17:02:52.453 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-查询数据库，返回所有学生信息的JSON格式
+2019-02-14 17:03:11.667 [Thread-4] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Shutting down ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:03:11.671 [Thread-4] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 17:03:11.675 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown initiated...
+2019-02-14 17:03:11.692 [Thread-4] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Shutdown completed.
+2019-02-14 17:03:31.050 [main] INFO  com.example.demo.Application
+				-Starting Application on FY-20180223SURK with PID 19348 (F:\SpringWeb\target\classes started by Administrator in F:\SpringWeb)
+2019-02-14 17:03:31.052 [main] INFO  com.example.demo.Application
+				-The following profiles are active: dev
+2019-02-14 17:03:31.994 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-02-14 17:03:32.069 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate
+				-Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces.
+2019-02-14 17:03:32.501 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker
+				-Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3974d2bd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-14 17:03:33.322 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat initialized with port(s): 8080 (http)
+2019-02-14 17:03:33.340 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Initializing ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:03:33.353 [main] INFO  o.a.catalina.core.StandardService
+				-Starting service [Tomcat]
+2019-02-14 17:03:33.354 [main] INFO  o.a.catalina.core.StandardEngine
+				-Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-02-14 17:03:33.366 [main] INFO  o.a.c.core.AprLifecycleListener
+				-An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.19]
+2019-02-14 17:03:33.367 [main] INFO  o.a.c.core.AprLifecycleListener
+				-Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2019-02-14 17:03:33.367 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-02-14 17:03:33.367 [main] INFO  o.a.c.core.AprLifecycleListener
+				-APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-02-14 17:03:34.421 [main] INFO  o.a.c.core.AprLifecycleListener
+				-OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2019-02-14 17:03:34.560 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring embedded WebApplicationContext
+2019-02-14 17:03:34.563 [main] INFO  o.s.web.context.ContextLoader
+				-Root WebApplicationContext: initialization completed in 3454 ms
+2019-02-14 17:03:34.760 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Starting...
+2019-02-14 17:03:35.422 [main] INFO  com.zaxxer.hikari.HikariDataSource
+				-HikariPool-1 - Start completed.
+2019-02-14 17:03:35.484 [main] INFO  o.h.jpa.internal.util.LogHelper
+				-HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-02-14 17:03:35.664 [main] INFO  org.hibernate.Version
+				-HHH000412: Hibernate Core {5.3.7.Final}
+2019-02-14 17:03:35.670 [main] INFO  org.hibernate.cfg.Environment
+				-HHH000206: hibernate.properties not found
+2019-02-14 17:03:35.897 [main] INFO  o.h.annotations.common.Version
+				-HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-02-14 17:03:36.084 [main] INFO  org.hibernate.dialect.Dialect
+				-HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-02-14 17:03:36.806 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean
+				-Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-02-14 17:03:37.571 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor
+				-Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-14 17:03:37.639 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration
+				-spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-02-14 17:03:37.805 [main] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping
+				-Adding welcome page template: index
+2019-02-14 17:03:38.016 [main] INFO  o.a.coyote.http11.Http11NioProtocol
+				-Starting ProtocolHandler ["http-nio-8080"]
+2019-02-14 17:03:38.056 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer
+				-Tomcat started on port(s): 8080 (http) with context path ''
+2019-02-14 17:03:38.060 [main] INFO  com.example.demo.Application
+				-Started Application in 7.446 seconds (JVM running for 8.089)
+2019-02-14 17:03:41.789 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]
+				-Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-14 17:03:41.790 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Initializing Servlet 'dispatcherServlet'
+2019-02-14 17:03:41.800 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet
+				-Completed initialization in 9 ms
+2019-02-14 17:03:42.387 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-url=http://localhost:8080/students
+2019-02-14 17:03:42.388 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-method=GET
+2019-02-14 17:03:42.388 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-ip=0:0:0:0:0:0:0:1
+2019-02-14 17:03:42.394 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-class_method=com.example.demo.controller.StudentController.getAll
+2019-02-14 17:03:42.395 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-args={}
+2019-02-14 17:03:42.405 [http-nio-8080-exec-8] INFO  c.e.d.controller.StudentController
+				-鏌ヨ鏁版嵁搴擄紝杩斿洖鎵�鏈夊鐢熶俊鎭殑JSON鏍煎紡
+2019-02-14 17:03:42.502 [http-nio-8080-exec-8] INFO  o.h.h.i.QueryTranslatorFactoryInitiator
+				-HHH000397: Using ASTQueryTranslatorFactory

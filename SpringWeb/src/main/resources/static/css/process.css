@@ -1,0 +1,150 @@
+section.box {
+    background-color: #ffffff;
+    margin: 15px 0;
+}
+
+section header {
+    width: 100%;
+    display: inline-block;
+    background-color: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    border-bottom: 2px solid rgba(31, 181, 172, 1.0);
+    vertical-align: top;
+    position: relative;
+}
+
+section header .title {
+    margin-top: 10px;
+    font-family: 'Oswald', Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    padding-left: 15px;
+    line-height: 30px;
+    color: #676767;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+section.box .actions {
+    margin: 0 15px;
+    line-height: 50px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+section.box .actions i {
+    color: #bcbcbc;
+    font-size: 12px;
+    margin-left: 0px;
+    padding: 5px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+section .content-body {
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #e8e8e8;
+    border-top: 0px;
+    -webkit-transition: 800ms;
+    -moz-transition: 800ms;
+    -o-transition: 800ms;
+    transition: 800ms;
+}
+
+.timeline2-centered {
+    margin-bottom: 30px;
+}
+
+.timeline2-centered .timeline2-entry {
+    position: relative;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner {
+    position: relative;
+    margin-left: -20px;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-icon.bg-success {
+    background-color: rgba(102, 189, 120, 1);
+    color: #fff;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-icon {
+    background: #fff;
+    color: #737881;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -moz-background-clip: padding;
+    -o-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 21px;
+    float: left;
+    border: 5px solid #eaeaea;
+    margin-left: 10px;
+    margin-top: 40px;
+    line-height: 60px;
+}
+.timeline2-icon i {
+    font-size: 28px;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label {
+    position: relative;
+    background: #f5f5f5;
+    padding: 15px;
+    margin-left: 80px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    margin-top: 45px;
+    border: 0px solid #eaeaea;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding: 20px;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label h2 a {
+    color: #1fb5ac;
+}
+
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label h2, .timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label p {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: "Open Sans",Arial,Helvetica,sans-serif;
+    font-weight: 300;
+    color: #505458;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label h2, .timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-label p {
+    margin: 0;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-icon.bg-secondary {
+    background-color: #dddd77;
+    color: #fff;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-icon.bg-info {
+    background-color: #00b3ee;
+    color: #fff;
+}
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-icon.bg-warning {
+    background-color: #fdb45c;
+    color: #fff;
+}
+
+.timeline2-centered .timeline2-entry .timeline2-entry-inner .timeline2-icon.bg-danger {
+    background-color: #A00000;
+    color: #fff;
+}

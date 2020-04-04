@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap Admin</title>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css">
+    <link rel="stylesheet" type="text/css" href="css/sign-up.css">
+
+    <script src="css/bootstrap/js/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="js/angular.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<div ng-app="myApp" ng-controller="teamHelperCtrl" ng-init="initIndex()" style="overflow-x: hidden">
+    <!--导航栏-->
+    <div class="navbar" style="min-height: 40px">
+        <div class="navbar-inner">
+            <div class="container-fluid">
+                <ul class="nav pull-right">
+                    <li id="fat-menu" class="dropdown">
+                        <a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">
+                            <i class="fa fa-user"></i> &nbsp;&nbsp;{{team.teamName}}
+                            <i class="fa fa-caret-down"></i>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a tabindex="-1" href="#"><i class="fa fa-edit"></i>&nbsp;&nbsp; 修改信息</a></li>
+                            <li class="divider"></li>
+                            <li><a tabindex="-1" style="pointer-events: none" href="sign-in.html"><i
+                                    class="fa fa-exchange"></i>&nbsp;&nbsp; 切换账号</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a class="brand" href="index.html"><span class="font_title">体操赛事管理系统</span></a>
+            </div>
+        </div>
+    </div>
+    <!--导航栏-->
+
+    <!-- Page container -->
+    <div class="page-container enough-height">
+        <!-- Page content -->
+        <div class="page-content">
+
+            <!-- Main sidebar -->
+            <div class="sidebar sidebar-main">
+                <div class="sidebar-content" id="main-menu-wrapper">
+                    <div class="profile-info row">
+                        <div class="profile-image col-md-4 col-sm-4 col-xs-4">
+                            <a href="#">
+                                <img src="imgs/user.jpg" class="img-responsive img-circle">
+                            </a>
+                        </div>
+                        <div class="profile-details col-md-8 col-sm-8 col-xs-8">
+                            <h3>
+                                <a href="#">{{team.teamName}}</a>
+                                <!-- Available statuses: online, idle, busy, away and offline -->
+                                <span class="profile-status online"></span>
+                            </h3>
+                        </div>
+                    </div>
+
+                    <ul class="wraplist" style="height: auto;">
+                        <li><a href="sign-up.html">
+                            <i class="fa fa-cloud-upload"></i> 队伍报名
+                            <span class="label label-orange nosubmenu">HOT</span>
+                        </a></li>
+                        <li><a href="process.html">
+                            <i class="fa fa-calendar"></i> 赛事流程
+                            <span class="label label-orange nosubmenu">HOT</span>
+                        </a></li>
+                        <li id="info" class="">
+                            <a ng-click="openOrCloseInfo()">
+                                <i class=" fa fa-file"></i> 队伍信息
+                                <span id="arrow" class="arrow" style="font-size: large"></span>
+                            </a>
+                            <ul id="info_details" class="sub-menu" style="display: none">
+                                <li><a href="teamHelper.html"><i class="fa fa-group"></i>随队人员</a></li>
+                                <li><a href="teamPlayer.html"><i class="fa fa-group"></i>参赛队员</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="single.html">
+                            <i class="fa fa-calendar"></i> 个人信息
+                        </a></li>
+                        <li><a href="registMatch.html">
+                            <i class="fa fa-calendar"></i> 比赛报名
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- /main sidebar -->
+
+            <div class="content-wrapper">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="page-title">
+                        <div class="pull-left">
+                            <h1 class="title">随队人员</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <!--随队人员信息表-->
+                <div class="col-lg-12"">
+                    <section class="box ">
+                        <header class="panel_header">
+                            <h2 class="title pull-left">随队人员信息表</h2>
+                            <div class="actions panel_actions pull-right">
+                                <i class="box_toggle fa fa-chevron-down"></i>
+                                <i class="box_setting fa fa-cog" data-toggle="modal" href="#section-settings"></i>
+                                <i class="box_close fa fa-times"></i>
+                            </div>
+                        </header>
+                        <div class="content-body">
+                            <div class="row">
+                                <div class="col-md-12 col-sm-12 col-xs-12">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>编号</th>
+                                                <th>姓名</th>
+                                                <th>职位</th>
+                                                <th>身份证号</th>
+                                                <th>电话号码</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <th scope="row">{{coach.coachId}}</th>
+                                                <td>{{coach.coachName}}</td>
+                                                <td>教练</td>
+                                                <td>{{coach.coachIdcard}}</td>
+                                                <td>{{coach.coachPhone}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">{{referee.refereeId}}</th>
+                                                <td>{{referee.refereeName}}</td>
+                                                <td>裁判</td>
+                                                <td>{{referee.refereeIdcard}}</td>
+                                                <td>{{referee.refereePhone}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">{{leader.leaderId}}</th>
+                                                <td>{{leader.leaderName}}</td>
+                                                <td>领队</td>
+                                                <td>{{leader.leaderIdcard}}</td>
+                                                <td>{{leader.leaderPhone}}</td>
+                                            </tr>
+                                            <tr>
+                                                <th scope="row">{{doctor.doctorId}}</th>
+                                                <td>{{doctor.doctorName}}</td>
+                                                <td>队医</td>
+                                                <td>{{doctor.doctorIdcard}}</td>
+                                                <td>{{doctor.doctorPhone}}</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!--随队人员信息表-->
+
+            </div>
+
+
+        </div>
+    </div>
+</div>
+<!-- Le javascript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="css/bootstrap/js/bootstrap.js"></script>
+<script src="js/teamHelper.js"></script>
+</body>
+</html>
+
+
